@@ -1,16 +1,10 @@
 # :pencil2: Leetcode Solutions with Java
-Update time:  2018-04-02 21:46:52
+Update time:  2018-04-02 21:58:24
 
-Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
+Tool Credit to [bonfy](https://github.com/bonfy)
 
 I have solved **170   /   726** problems
 while there are **133** problems still locked.
-
-If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
-
-If you have any question, please give me an [issue](https://github.com/Kiwitwitter/Leetcode_progress/issues).
-
-If you are loving solving problems in leetcode, please contact me to enjoy it together!
 
 (Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
 
