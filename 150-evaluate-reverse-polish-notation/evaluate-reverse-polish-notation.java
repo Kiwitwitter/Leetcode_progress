@@ -1,17 +1,15 @@
-//
 // Evaluate the value of an arithmetic expression in Reverse Polish Notation.
-//
-//
 //
 // Valid operators are +, -, *, /. Each operand may be an integer or another expression.
 //
-//
-//
 // Some examples:
 //
-//   ["2", "1", "+", "3", "*"] -> ((2 + 1) * 3) -> 9
-//   ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 //
+//   [&quot;2&quot;, &quot;1&quot;, &quot;+&quot;, &quot;3&quot;, &quot;*&quot;] -&gt; ((2 + 1) * 3) -&gt; 9
+//   [&quot;4&quot;, &quot;13&quot;, &quot;5&quot;, &quot;/&quot;, &quot;+&quot;] -&gt; (4 + (13 / 5)) -&gt; 6
+//
+//
+// &nbsp;
 //
 
 

@@ -1,12 +1,9 @@
-//
 // Given two binary strings, return their sum (also a binary string).
 //
-//
-//
 // For example,
-// a = "11"
-// b = "1"
-// Return "100".
+// a = &quot;11&quot;
+// b = &quot;1&quot;
+// Return &quot;100&quot;.
 //
 
 
