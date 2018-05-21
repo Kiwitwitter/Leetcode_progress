@@ -1,5 +1,9 @@
 // Invert a binary tree.
 //
+// Example:
+//
+// Input:
+//
 //
 //      4
 //    /   \
@@ -7,7 +11,7 @@
 //  / \   / \
 // 1   3 6   9
 //
-// to
+// Output:
 //
 //
 //      4

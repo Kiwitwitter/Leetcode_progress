@@ -16,15 +16,23 @@
 
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        Set<Integer> set = new HashSet<>();  
-        Arrays.sort(nums1);
-        for(int num : nums2){
-            int index = Arrays.binarySearch(nums1, num);
-            if(index >=0) set.add(num); }
-        
-        int[] res = new int[set.size()];
-        int i = 0;
-        for(int num : set) res[i++] = num;
-        return res;
+        HashSet<Integer> set = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
+        for(int m:nums1){
+            if(!set.contains(m)){
+                set.add(m);
+            }
+        }
+        for(int n:nums2){
+            if(set.contains(n)){
+                set.remove(n);
+                list.add(n);
+            }
+        }
+        int [] ans = new int[list.size()];
+        for(int i = 0 ;i<list.size();i++){
+            ans[i] = list.get(i);
+        }
+        return ans;
     }
 }

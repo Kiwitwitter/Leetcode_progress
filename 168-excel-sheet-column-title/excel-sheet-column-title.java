@@ -2,15 +2,38 @@
 //
 // For example:
 //
-//     1 -> A
-//     2 -> B
-//     3 -> C
-//     ...
-//     26 -> Z
-//     27 -> AA
-//     28 -> AB 
 //
-// Credits:Special thanks to @ifanchu for adding this problem and creating all test cases.
+//     1 -&gt; A
+//     2 -&gt; B
+//     3 -&gt; C
+//     ...
+//     26 -&gt; Z
+//     27 -&gt; AA
+//     28 -&gt; AB 
+//     ...
+//
+//
+// Example 1:
+//
+//
+// Input: 1
+// Output: &quot;A&quot;
+//
+//
+// Example 2:
+//
+//
+// Input: 28
+// Output: &quot;AB&quot;
+//
+//
+// Example 3:
+//
+//
+// Input: 701
+// Output: &quot;ZY&quot;
+//
+//
 
 
 class Solution {

@@ -1,15 +1,20 @@
+// Given a string s , find the length of the longest substring&nbsp;t&nbsp;&nbsp;that contains at most 2 distinct characters.
 //
-// Given a string, find the length of the longest substring T that contains at most 2 distinct characters.
-//
-//
-//
-// For example,
-//
-// Given s = “eceba”,
+// Example 1:
 //
 //
+// Input: &quot;eceba&quot;
+// Output: 3
+// Explanation: t is &quot;ece&quot; which its length is 3.
 //
-// T is "ece" which its length is 3.
+//
+// Example 2:
+//
+//
+// Input: &quot;ccaabbb&quot;
+// Output: 5
+// Explanation: t is &quot;aabbb&quot; which its length is 5.
+//
 //
 
 

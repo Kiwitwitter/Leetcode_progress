@@ -1,8 +1,14 @@
 // Reverse a singly linked list.
 //
-// click to show more hints.
+// Example:
 //
-// Hint:
+//
+// Input: 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL
+// Output: 5-&gt;4-&gt;3-&gt;2-&gt;1-&gt;NULL
+//
+//
+// Follow up:
+//
 // A linked list can be reversed either iteratively or recursively. Could you implement both?
 //
 
@@ -17,13 +23,16 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        while(head!=null){
-            ListNode temp = head.next;
-            head.next = prev;
-            prev = head;
-            head = temp;
+        if(head ==null)
+            return head;
+        
+        ListNode curHead = head;
+        while(head.next != null){
+            ListNode p = head.next;
+            head.next = p.next;
+            p.next = curHead;
+            curHead = p;
         }
-        return prev;
+        return curHead;
     }
 }

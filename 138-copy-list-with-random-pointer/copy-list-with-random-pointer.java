@@ -17,33 +17,30 @@
  */
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
-        if(head == null){
-            return null;
-        }
-        HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
-        RandomListNode dummy = new RandomListNode(0);
-        RandomListNode pre = dummy, newNode;
-        while (head != null) {
-            if (map.containsKey(head)) {
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<>();
+        RandomListNode dum = new  RandomListNode(0);
+        RandomListNode pre = dum,newNode;
+        
+        while(head != null){
+            if(map.containsKey(head)){
                 newNode = map.get(head);
-            } else {
+            }else{
                 newNode = new RandomListNode(head.label);
-                map.put(head, newNode);
+                map.put(head,newNode);
             }
             pre.next = newNode;
-
+            
             if (head.random != null) {
-                if (map.containsKey(head.random)) {
+                if(map.containsKey(head.random)){
                     newNode.random = map.get(head.random);
-                } else {
+                }else{
                     newNode.random = new RandomListNode(head.random.label);
-                    map.put(head.random, newNode.random);
+                    map.put(head.random,newNode.random);
                 }
             }
-
             pre = newNode;
             head = head.next;
         }
-        return dummy.next;
+        return dum.next;
     }
 }

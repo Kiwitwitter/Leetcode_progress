@@ -1,26 +1,20 @@
+// Given an input string&nbsp;, reverse the string word by word.&nbsp;
 //
-// Given an input string, reverse the string word by word. A word is defined as a sequence of non-space characters.
-//
-//
-//
-// The input string does not contain leading or trailing spaces and the words are always separated by a single space.
+// Example:
 //
 //
+// Input:  [&quot;t&quot;,&quot;h&quot;,&quot;e&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;]
+// Output: [&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;t&quot;,&quot;h&quot;,&quot;e&quot;]
 //
-// For example,
-// Given s = "the sky is blue",
-// return "blue is sky the".
-//
-//
-//
-// Could you do it in-place without allocating extra space?
+// Note:&nbsp;
 //
 //
-// Related problem: Rotate Array
+// 	A word is defined as a sequence of non-space characters.
+// 	The input string does not contain leading or trailing spaces.
+// 	The words are always separated by a single space.
 //
 //
-// Update (2017-10-16):
-// We have updated the function signature to accept a character array, so please reset to the default code definition by clicking on the reload button above the code editor. Also, Run Code is now available!
+// Follow up:&nbsp;Could you do it in-place without allocating extra space?
 //
 
 

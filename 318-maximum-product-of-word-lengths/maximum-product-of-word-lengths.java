@@ -1,35 +1,27 @@
+// Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.
 //
-//     Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters.
-//     You may assume that each word will contain only lower case letters.
-//     If no such two words exist, return 0.
-//
+// Example 1:
 //
 //
-//     Example 1:
+// Input: [&quot;abcw&quot;,&quot;baz&quot;,&quot;foo&quot;,&quot;bar&quot;,&quot;xtfn&quot;,&quot;abcdef&quot;]
+// Output: 16 
+// Explanation: The two words can be &quot;abcw&quot;, &quot;xtfn&quot;.
+//
+// Example 2:
 //
 //
-//     Given ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
-//     Return 16
-//     The two words can be "abcw", "xtfn".
+// Input: [&quot;a&quot;,&quot;ab&quot;,&quot;abc&quot;,&quot;d&quot;,&quot;cd&quot;,&quot;bcd&quot;,&quot;abcd&quot;]
+// Output: 4 
+// Explanation: The two words can be &quot;ab&quot;, &quot;cd&quot;.
+//
+// Example 3:
 //
 //
-//     Example 2:
+// Input: [&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]
+// Output: 0 
+// Explanation: No such pair of words.
 //
 //
-//     Given ["a", "ab", "abc", "d", "cd", "bcd", "abcd"]
-//     Return 4
-//     The two words can be "ab", "cd".
-//
-//
-//     Example 3:
-//
-//
-//     Given ["a", "aa", "aaa", "aaaa"]
-//     Return 0
-//     No such pair of words.    
-//
-//
-// Credits:Special thanks to @dietpepsi for adding this problem and creating all test cases.
 
 
 class Solution {

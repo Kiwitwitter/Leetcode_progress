@@ -1,8 +1,17 @@
-// Given two strings s and t, write a function to determine if t is an anagram of s. 
+// Given two strings s and t&nbsp;, write a function to determine if t is an anagram of s.
 //
-// For example,
-// s = "anagram", t = "nagaram", return true.
-// s = "rat", t = "car", return false.
+// Example 1:
+//
+//
+// Input: s = &quot;anagram&quot;, t = &quot;nagaram&quot;
+// Output: true
+//
+//
+// Example 2:
+//
+//
+// Input: s = &quot;rat&quot;, t = &quot;car&quot;
+// Output: false
 //
 //
 // Note:
@@ -10,6 +19,7 @@
 //
 // Follow up:
 // What if the inputs contain unicode characters? How would you adapt your solution to such case?
+//
 
 
 class Solution {

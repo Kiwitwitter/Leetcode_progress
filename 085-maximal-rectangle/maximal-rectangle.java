@@ -1,15 +1,17 @@
+// Given a 2D binary matrix filled with 0&#39;s and 1&#39;s, find the largest rectangle containing only 1&#39;s and return its area.
 //
-// Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
+// Example:
 //
 //
-// For example, given the following matrix:
+// Input:
+// [
+//   [&quot;1&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;,&quot;0&quot;],
+//   [&quot;1&quot;,&quot;0&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],
+//   [&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],
+//   [&quot;1&quot;,&quot;0&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;]
+// ]
+// Output: 6
 //
-// 1 0 1 0 0
-// 1 0 1 1 1
-// 1 1 1 1 1
-// 1 0 0 1 0
-//
-// Return 6.
 //
 
 
